@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.3",
+    "delimited-file-reader": "^1.0.7",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-zip": "^3.0.0",
+    "faker": "^4.1.0",
+    "json-schema-faker": "^0.5.0-rcv.24",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
+    "mongoose-uuid2": "^2.3.0",
+    "randomstring": "^1.1.5",
+    "rimraf": "^3.0.2",
+    "zip-a-folder": "0.0.12"
+  }
+}
